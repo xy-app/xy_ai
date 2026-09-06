@@ -1,8 +1,3 @@
-根据提供的 `manifest.json` 规范，为您生成适合直接放置于 GitHub 仓库根目录的 `README.md`：
-
----
-
-```markdown
 # 官方 AI 视觉与智能推理套件 (AI Vision & Inference Suite) 🤖
 
 [![Version](https://img.shields.io/badge/version-0.49.1-blue.svg)](manifest.json)
@@ -12,7 +7,6 @@
 
 `xy_ai` 是官方 AI 视觉与智能推理套件，为自动化与业务流程提供高可用、多模态的端侧智能推理与计算机视觉识别能力。套件基于 **Shimmy (GGUF)** 引擎提供本地大语言模型服务与标准 OpenAI 接口，并基于 **ONNX Runtime (ort)** 深度整合了 **PaddleOCR**、**PP-Structurev2**、**Florence-2**、**YOLOv8/v11**、**CNN 超分扫码** 及 **通用图像分类** 等多模态视觉能力。
 
----
 
 ## 📑 目录
 
@@ -27,7 +21,7 @@
 - [典型实战场景](#-典型实战场景)
 - [版本历史](#-版本历史)
 
----
+
 
 ## ✨ 核心特性
 
@@ -38,7 +32,6 @@
 - **工业级扫码鲁棒性**：借助 CNN 目标检测与超分辨率图像校正，大幅提升模糊、小面积与倾斜扭曲场景下的条码/二维码识别率。
 - **通用 CV 模型灵活拓展**：支持自定义加载 YOLOv8/v11 目标检测模型与 MobileNet/ResNet 分类模型。
 
----
 
 ## 🛠 动作功能概览
 
@@ -57,7 +50,6 @@
 | `ObjectDetection` | 通用目标检测 | YOLOv8/v11 ONNX (内置 NMS) 通用目标定位、分类与置信度过滤 | `string` |
 | `ImageClassification` | 图像通用分类 | MobileNet/ResNet ONNX 通用图像分类预测与场景辨识 | `string` |
 
----
 
 ## 📖 动作详细参数参考
 
@@ -76,7 +68,6 @@
   - `json_schema` (*String*): 可选 JSON Schema 规范，强制模型输出合规结构化数据。
 - **输出**：`string`（模型生成的文本或结构化数据）
 
----
 
 ### 2. 文字识别与定位 (OCR & Detection)
 
@@ -98,8 +89,6 @@
   - `score_threshold` (*Real*): 相似度/置信度门限。默认 `0.6`。
 - **输出**：`boolean`（是否命中目标文本）
 
----
-
 ### 3. 智能视觉等待与表格分析 (UI & Structure)
 
 #### `VisualWait` (视觉条件等待)
@@ -119,8 +108,6 @@
   - `output_format` (*String*): 输出格式。可选 `markdown`、`json`、`html`。默认 `markdown`。
   - `score_threshold` (*Real*): 单元格与边框置信度阈值。默认 `0.5`。
 - **输出**：`string`（指定格式的表格文本内容）
-
----
 
 ### 4. 条码识别与生成 (Barcode & QR)
 
@@ -142,7 +129,6 @@
   - `height` (*Number*): 图像高度（像素）。默认 `300`。
 - **输出**：`string`（保存成功的本地路径）
 
----
 
 ### 5. 多模态视觉与深度学习模型 (VLM & CV)
 
@@ -180,12 +166,11 @@
   - `softmax` (*Boolean*): 是否对输出 Logits 执行 Softmax 归一化。默认 `true`。
 - **输出**：`string`（分类概率排名结果）
 
----
-
 ## 💡 典型实战场景
 
 ### 场景 1：无界面原生控件时的自然语言意图定位与点击
 在无法通过 DOM 或 UI 自动化树获取句柄的复杂客户端/远程桌面上：
+
 ```text
 1. [VisualWait] 等待结算页面加载
    - wait_type: "text_appear"
@@ -197,7 +182,6 @@
    - prompt: "红色提交订单按钮"
    
 3. 提取返回坐标并驱动系统鼠标完成点击
-
 ```
 
 ### 场景 2：离线文档批量结构化提取与报表生成
