@@ -15,4 +15,4 @@
 
 ## 输出说明
 
-* **输出变量**：格式化后的表格字符串，可直接联动 `xy_polars` 转换为 DataFrame，或直接写入 Excel / Markdown 报表。
+* **输出变量**：格式化后的表格字符串，可直接联动 `xy_analysis` 转换为 DataFrame，或直接写入 Excel / Markdown 报表。

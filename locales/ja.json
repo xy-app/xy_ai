@@ -1,0 +1,47 @@
+{
+  "name": "AIビジョン＆文字認識 (AI & OCR)",
+  "description": "画面文字認識 (OCR)、文字検索、表抽出、バーコード認識、AI言語モデルチャット、画面要素のスマート検出機能を提供します",
+  "group": "AI・画像認識",
+  "actions": {
+    "OpenAiService": {
+      "display_name": "AIモデルサービス＆推論",
+      "description": "ローカルまたはリモートのAIモデルを呼び出して対話や推論を実行し、テキストまたは構造化データを生成します"
+    },
+    "OcrGeneral": {
+      "display_name": "汎用文字認識 (OCR)",
+      "description": "画像や画面内のすべての文字を高精度で認識し、テキスト内容と位置を出力します"
+    },
+    "OcrFindText": {
+      "display_name": "画面内テキスト検索・位置特定",
+      "description": "画面または画像内で指定したテキストを検索し、自動クリックに使用できる座標を返します"
+    },
+    "VisualWait": {
+      "display_name": "視覚的条件待機",
+      "description": "画面上に指定された文字や画像が表示または非表示になるまで待機します"
+    },
+    "OcrTable": {
+      "display_name": "表構造抽出 (OCR)",
+      "description": "画像内の表形式データを自動認識し、構造化されたテーブルデータとして抽出します"
+    },
+    "BarcodeRecognition": {
+      "display_name": "バーコード・QRコード高精度認識",
+      "description": "画像や画面上のQRコードやバーコードを、かすれや傾きがあっても高精度にスキャンします"
+    },
+    "BarcodeGenerate": {
+      "display_name": "バーコード・QRコード生成",
+      "description": "入力されたテキストやURLからバーコードまたはQRコード画像を生成します"
+    },
+    "Florence2": {
+      "display_name": "マルチモーダル視覚解析 (Florence-2)",
+      "description": "自然言語の説明によって画面上のボタンやアイコンの位置を特定し、視覚的解析を行います"
+    },
+    "ObjectDetection": {
+      "display_name": "汎用オブジェクト検出",
+      "description": "画像内の人物、車両、一般的な物体を自動検出して位置を特定します"
+    },
+    "ImageClassification": {
+      "display_name": "画像分類",
+      "description": "画像が属するカテゴリやシーンを自動的に判定・分類します"
+    }
+  }
+}

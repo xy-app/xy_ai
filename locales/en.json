@@ -1,0 +1,47 @@
+{
+  "name": "AI Vision & Text Recognition (AI & OCR)",
+  "description": "Provides screen text recognition (OCR), text search, table extraction, barcode scanning, LLM chat, and intelligent visual element locating",
+  "group": "AI & OCR",
+  "actions": {
+    "OpenAiService": {
+      "display_name": "AI Model Service & Inference",
+      "description": "Invoke local or remote AI models for chat and inference, generating text or structured data"
+    },
+    "OcrGeneral": {
+      "display_name": "General Text Recognition (OCR)",
+      "description": "Accurately recognize all text in an image or screen region, outputting full text and bounding boxes"
+    },
+    "OcrFindText": {
+      "display_name": "Find Text Location (OCR)",
+      "description": "Search for specific text on the screen or image and return its coordinates for clicking"
+    },
+    "VisualWait": {
+      "display_name": "Visual Condition Wait",
+      "description": "Wait for specific text or visual element to appear or disappear on the screen"
+    },
+    "OcrTable": {
+      "display_name": "Table Structure Extraction (OCR)",
+      "description": "Automatically recognize table structure in images and reconstruct structured tabular data"
+    },
+    "BarcodeRecognition": {
+      "display_name": "Barcode & QR Code Recognition",
+      "description": "Recognize QR codes and 1D barcodes from images or screen with high fault tolerance"
+    },
+    "BarcodeGenerate": {
+      "display_name": "Generate Barcode & QR Code",
+      "description": "Generate barcode or QR code image from given text or URL"
+    },
+    "Florence2": {
+      "display_name": "Multimodal Visual Grounding (Florence-2)",
+      "description": "Locate UI elements, buttons, or icons using natural language descriptions via Florence-2 model"
+    },
+    "ObjectDetection": {
+      "display_name": "Object Detection",
+      "description": "Detect and locate objects, persons, vehicles, or items in the image"
+    },
+    "ImageClassification": {
+      "display_name": "Image Classification",
+      "description": "Classify image category, type, or scene content automatically"
+    }
+  }
+}

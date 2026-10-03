@@ -1,0 +1,47 @@
+{
+  "name": "KI-Vision & Texterkennung (AI & OCR)",
+  "description": "Bietet Bildschirmtexterkennung (OCR), Textsuche, Tabellenextraktion, Barcode-Scanning, KI-Modell-Chat und intelligente Bildschirmelementerkennung",
+  "group": "KI & OCR",
+  "actions": {
+    "OpenAiService": {
+      "display_name": "KI-Modell-Service & Inferenz",
+      "description": "Lokale oder Remote-KI-Modelle für Chat und Inferenz aufrufen, um Text oder strukturierte Daten zu generieren"
+    },
+    "OcrGeneral": {
+      "display_name": "Allgemeine Texterkennung (OCR)",
+      "description": "Erkennt hochpräzise jeden Text in Bildern oder auf dem Bildschirm"
+    },
+    "OcrFindText": {
+      "display_name": "Textsuche & Positionsbestimmung",
+      "description": "Sucht nach bestimmtem Text auf dem Bildschirm oder Bild und gibt Klick-Koordinaten zurück"
+    },
+    "VisualWait": {
+      "display_name": "Warten auf visuelle Bedingung",
+      "description": "Wartet, bis bestimmter Text oder ein Bildschirmelement erscheint oder verschwindet"
+    },
+    "OcrTable": {
+      "display_name": "Tabellenstrukturextraktion (OCR)",
+      "description": "Erkennt automatisch Tabelleninhalte in Bildern und stellt Tabellendaten wieder her"
+    },
+    "BarcodeRecognition": {
+      "display_name": "Barcode- & QR-Code-Erkennung",
+      "description": "Erkennt QR-Codes und Barcodes aus Bildern oder vom Bildschirm"
+    },
+    "BarcodeGenerate": {
+      "display_name": "Barcode & QR-Code generieren",
+      "description": "Erstellt Barcode- oder QR-Code-Bilder aus eingegebenem Text oder URLs"
+    },
+    "Florence2": {
+      "display_name": "Multimodale visuelle Erkennung (Florence-2)",
+      "description": "Lokalisiert UI-Elemente und Symbole anhand natürlicher Sprachbeschreibungen"
+    },
+    "ObjectDetection": {
+      "display_name": "Objekterkennung",
+      "description": "Erkennt und lokalisiert Objekte, Personen oder Gegenstände im Bild"
+    },
+    "ImageClassification": {
+      "display_name": "Bildklassifizierung",
+      "description": "Klassifiziert Bildinhalte automatisch in passende Kategorien oder Szenen"
+    }
+  }
+}

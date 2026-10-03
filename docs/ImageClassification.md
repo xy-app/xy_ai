@@ -1,27 +1,24 @@
-# 目标分类 
-对象分类是计算机视觉中的一项基本任务，涉及训练模型以及将图像分类为预定义的类别。该动作基于深度学习框架用来处理目标分类应用场景。
+# 图像分类 (ImageClassification)
 
+基于深度学习分类网络的高性能图像场景与目标类别识别动作。支持 ResNet、MobileNet 等常见视觉分类模型，用于图像状态判别与场景分类。
 
+## 权限要求
+> 无要求
 
 ## 子流程
 > 不支持
 
-
 ## 运行参数
 
-* 模型
-> *ONNX* 分类模型。
-* 图像
->   要分类的图像。通常是归一化后的图像数据，操作步骤：先进行 [*像素缩放*](./actions/image/ImageNormalize.md) 动作，将图像像素缩放至 （0 ~ 1），然后 [*均值*](./actions/image/ImageMean.md) 动作操作，最后再再执行 [*标准差*](./actions/image/ImageStd.md) 。
-* 标签
-> 预定义的分类标签。
-
-* 归一化
-> 将输出的置信度限制在 *0~1* 范围内。
+* `image` (Image)：待分类图像对象或图像文件路径。
+* `model` (Path)：分类网络 ONNX 模型文件路径。
+* `labels` (Path)：类别清单文本文件路径（每行对应一个类别名称）。
+* `framework` (String)：推理执行后端（默认：`onnx`）。
+* `softmax` (Boolean)：是否对模型输出的 Logits 向量进行 Softmax 指数归一化概率计算（默认：`true`）。
 
 ## 输出
+> 图像分类结果 JSON 字符串（包含各候选类别的标签名称 `label`、置信度概率分数 `score` 以及排序列表）。
 
-> 分类对象, 参考：[ClassificationResult](./types/ClassificationResult.md)。    
-
-
-!> ONNX Model Zoo： https://github.com/onnx/models
+## 注意事项
+* 若模型在导出时内部已包含 Softmax 操作，可将 `softmax` 参数设为 `false` 以避免重复归一化。
+* 类别清单文件需与模型输出的维度顺序严格一致。

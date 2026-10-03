@@ -1,0 +1,47 @@
+{
+  "name": "AI 视觉与文字识别 (AI & OCR)",
+  "description": "提供屏幕文字识别 (OCR)、查找屏幕文字、表格提取、条码识别、AI 大模型问答以及智能定位屏幕元素等功能",
+  "group": "人工智能",
+  "actions": {
+    "OpenAiService": {
+      "display_name": "本地模型服务与推理 (OpenAiService)",
+      "description": "调用本地或远程 AI 大模型进行提问与智能对话，支持生成文本或结构化数据"
+    },
+    "OcrGeneral": {
+      "display_name": "通用文字识别 (OcrGeneral)",
+      "description": "高精度识别图片或屏幕中的所有文字，输出完整文本内容与所在位置"
+    },
+    "OcrFindText": {
+      "display_name": "文字查找定位 (OcrFindText)",
+      "description": "在屏幕或图片中寻找指定的文字，返回文字坐标位置，可直接用于自动点击"
+    },
+    "VisualWait": {
+      "display_name": "视觉条件等待 (VisualWait)",
+      "description": "等待屏幕上出现或消失指定的文字或画面，常用于等待网页或软件加载完成"
+    },
+    "OcrTable": {
+      "display_name": "表格结构提取 (OcrTable)",
+      "description": "自动识别图片中的表格内容，并整理还原为标准表格数据"
+    },
+    "BarcodeRecognition": {
+      "display_name": "增强型条码二维码识别 (BarcodeRecognition)",
+      "description": "识别图片或屏幕上的二维码与条形码，即使模糊或倾斜也能精准扫码"
+    },
+    "BarcodeGenerate": {
+      "display_name": "条码与二维码生成 (BarcodeGenerate)",
+      "description": "根据输入的文字或网址生成条形码或二维码图片"
+    },
+    "Florence2": {
+      "display_name": "多模态视觉定位与解析 (Florence2)",
+      "description": "通过自然语言描述智能寻找屏幕上的按钮或图标位置，支持画面智能分析"
+    },
+    "ObjectDetection": {
+      "display_name": "通用目标检测 (ObjectDetection)",
+      "description": "自动识别并标出画面中的人物、车辆或常见物体所在位置"
+    },
+    "ImageClassification": {
+      "display_name": "图像通用分类 (ImageClassification)",
+      "description": "自动分析判断图片所属的类别或场景"
+    }
+  }
+}

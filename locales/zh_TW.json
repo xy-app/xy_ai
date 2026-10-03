@@ -1,0 +1,47 @@
+{
+  "name": "AI 視覺與文字辨識 (AI & OCR)",
+  "description": "提供螢幕文字辨識 (OCR)、尋找螢幕文字、表格擷取、條碼辨識、AI 大模型問答以及智慧定位螢幕元素等功能",
+  "group": "人工智慧",
+  "actions": {
+    "OpenAiService": {
+      "display_name": "本機模型服務與推論 (OpenAiService)",
+      "description": "調用本機或遠端 AI 大模型進行提問與智慧對話，支援生成文字或結構化資料"
+    },
+    "OcrGeneral": {
+      "display_name": "通用文字辨識 (OcrGeneral)",
+      "description": "高精度辨識圖片或螢幕中的所有文字，輸出完整文字內容與所在位置"
+    },
+    "OcrFindText": {
+      "display_name": "文字尋找定位 (OcrFindText)",
+      "description": "在螢幕或圖片中尋找指定的文字，返回文字座標位置，可直接用於自動點擊"
+    },
+    "VisualWait": {
+      "display_name": "視覺條件等待 (VisualWait)",
+      "description": "等待螢幕上出現或消失指定的文字或畫面，常用於等待網頁或軟體載入完成"
+    },
+    "OcrTable": {
+      "display_name": "表格結構擷取 (OcrTable)",
+      "description": "自動辨識圖片中的表格內容，並整理還原為標準表格資料"
+    },
+    "BarcodeRecognition": {
+      "display_name": "增強型條碼二維碼辨識 (BarcodeRecognition)",
+      "description": "辨識圖片或螢幕上的二維碼與條碼，即使模糊或傾斜也能精準掃碼"
+    },
+    "BarcodeGenerate": {
+      "display_name": "條碼與二維碼生成 (BarcodeGenerate)",
+      "description": "根據輸入的文字或網址生成條碼或二維碼圖片"
+    },
+    "Florence2": {
+      "display_name": "多模態視覺定位與解析 (Florence2)",
+      "description": "透過自然語言描述智慧尋找螢幕上的按鈕或圖示位置，支援畫面智慧分析"
+    },
+    "ObjectDetection": {
+      "display_name": "通用目標檢測 (ObjectDetection)",
+      "description": "自動辨識並標出畫面中的人物、車輛或常見物體所在位置"
+    },
+    "ImageClassification": {
+      "display_name": "影像通用分類 (ImageClassification)",
+      "description": "自動分析判斷圖片所屬的類別或場景"
+    }
+  }
+}

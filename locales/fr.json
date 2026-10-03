@@ -1,0 +1,47 @@
+{
+  "name": "Vision IA & Reconnaissance de texte (AI & OCR)",
+  "description": "Fournit la reconnaissance de texte à l'écran (OCR), la recherche de texte, l'extraction de tableaux, la lecture de codes-barres et le chat IA",
+  "group": "IA & OCR",
+  "actions": {
+    "OpenAiService": {
+      "display_name": "Service & inférence de modèle IA",
+      "description": "Invoquer des modèles IA locaux ou distants pour le chat et l'inférence"
+    },
+    "OcrGeneral": {
+      "display_name": "Reconnaissance générale de texte (OCR)",
+      "description": "Reconnaît avec précision tout le texte dans une image ou sur l'écran"
+    },
+    "OcrFindText": {
+      "display_name": "Recherche et localisation de texte",
+      "description": "Recherche un texte spécifique à l'écran ou sur une image et renvoie ses coordonnées"
+    },
+    "VisualWait": {
+      "display_name": "Attente de condition visuelle",
+      "description": "Attend qu'un texte ou élément apparaisse ou disparaisse à l'écran"
+    },
+    "OcrTable": {
+      "display_name": "Extraction de structure de tableau (OCR)",
+      "description": "Reconnaît automatiquement la structure du tableau dans les images"
+    },
+    "BarcodeRecognition": {
+      "display_name": "Reconnaissance de codes-barres & QR codes",
+      "description": "Reconnaît les codes QR et codes-barres sur l'écran ou dans des images"
+    },
+    "BarcodeGenerate": {
+      "display_name": "Générer un code-barres ou QR code",
+      "description": "Génère une image de code-barres ou code QR à partir d'un texte ou d'une URL"
+    },
+    "Florence2": {
+      "display_name": "Localisation visuelle multimodale (Florence-2)",
+      "description": "Localise les éléments d'interface à l'aide de descriptions en langage naturel"
+    },
+    "ObjectDetection": {
+      "display_name": "Détection d'objets",
+      "description": "Détecte et localise des objets, personnes ou véhicules dans l'image"
+    },
+    "ImageClassification": {
+      "display_name": "Classification d'images",
+      "description": "Classifie automatiquement la catégorie ou la scène d'une image"
+    }
+  }
+}

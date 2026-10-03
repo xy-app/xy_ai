@@ -1,0 +1,47 @@
+{
+  "name": "AI 비전 및 문자 인식 (AI & OCR)",
+  "description": "화면 문자 인식 (OCR), 텍스트 검색, 표 추출, 바코드 인식, AI 언어 모델 질문 답변 및 화면 요소 감지 기능을 제공합니다",
+  "group": "인공지능 및 OCR",
+  "actions": {
+    "OpenAiService": {
+      "display_name": "AI 모델 서비스 및 추론",
+      "description": "로컬 또는 원격 AI 모델을 호출하여 질문과 대화를 수행하고 텍스트 또는 정형 데이터를 생성합니다"
+    },
+    "OcrGeneral": {
+      "display_name": "범용 문자 인식 (OCR)",
+      "description": "이미지 또는 화면의 모든 문자를 고정밀로 인식하여 전체 텍스트와 좌표를 출력합니다"
+    },
+    "OcrFindText": {
+      "display_name": "텍스트 검색 및 위치 확인",
+      "description": "화면이나 이미지에서 지정된 텍스트를 검색하여 자동 클릭에 사용할 좌표를 반환합니다"
+    },
+    "VisualWait": {
+      "display_name": "시각적 조건 대기",
+      "description": "지정된 텍스트나 화면 요소가 나타나거나 사라질 때까지 대기합니다"
+    },
+    "OcrTable": {
+      "display_name": "표 구조 추출 (OCR)",
+      "description": "이미지 내의 표 내용을 자동으로 인식하고 정형 테이블 데이터로 복원합니다"
+    },
+    "BarcodeRecognition": {
+      "display_name": "바코드 및 QR 코드 인식",
+      "description": "이미지나 화면의 QR 코드와 바코드를 흐리거나 기울어져 있어도 정확히 인식합니다"
+    },
+    "BarcodeGenerate": {
+      "display_name": "바코드 및 QR 코드 생성",
+      "description": "입력된 텍스트나 URL을 기반으로 바코드 또는 QR 코드 이미지를 생성합니다"
+    },
+    "Florence2": {
+      "display_name": "멀티모달 시각 분석 (Florence-2)",
+      "description": "자연어 설명을 통해 화면의 버튼이나 아이콘 위치를 탐색하고 시각적 분석을 수행합니다"
+    },
+    "ObjectDetection": {
+      "display_name": "범용 객체 감지",
+      "description": "화면 속 사람, 차량, 사물 등의 객체를 자동으로 감지하고 위치를 표시합니다"
+    },
+    "ImageClassification": {
+      "display_name": "이미지 분류",
+      "description": "이미지가 속한 범주나 장면을 자동으로 분석하고 분류합니다"
+    }
+  }
+}
