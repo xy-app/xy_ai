@@ -3,7 +3,7 @@
 [![Plugin Version](https://img.shields.io/badge/version-0.50.5-blue.svg)](manifest.json)
 [![Group](https://img.shields.io/badge/group-AI-purple.svg)](#)
 [![Platform](https://img.shields.io/badge/platform-All-green.svg)](#)
-[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](#)
+[![License](https://img.shields.io/badge/license-Freeware-brightgreen.svg)](#)
 
 专为桌面自动化、RPA 智能体（Agent）及工业质检场景打造的本地 AI 推理旗舰套件。深度融合 GGUF 本地端侧大模型运行时与 ONNX 工业级视觉引擎，提供零云端依赖的端到端文本与多模态智能：涵盖端侧 LLM 对话服务、端到端 OCR 文字检测与条件查找、异步视觉等待守卫、复杂结构化表格解析、深度学习增强型条形码/二维码双向生成识别、基于微软 Florence-2 的意图驱动 UI 定位，以及 YOLOv8/v11 实时目标检测与图像分类。
 
@@ -195,4 +195,4 @@
 
 ## 📄 许可证 (License)
 
-本项目遵循 MIT 开源协议。
+本插件遵循免费专有许可协议 (Freeware)。供 xy-app 用户免费下载与使用，未经官方书面授权，严禁对二进制文件进行逆向工程、反编译或二次打包转售。
